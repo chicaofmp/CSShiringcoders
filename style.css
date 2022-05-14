@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* 
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E5E7EA;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}*/
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(13,16,18,1) 15%, rgba(2,0,36,1) 100%);   
+    padding: 20px 0 20px 0;
+    border-bottom: 2px solid #009688;
+}
+header img{
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    background-color: #E5E7EA;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    
+}
+header a{
+    padding: 0 15px 15px 15px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+main{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.myphoto{
+    border-radius: 100%;
+    border: 2px solid #009688;
+    width: 40%;
+    margin-top: 40px;
+}
+.left-section{
+    background-color: #E5E7EA;
+;}
+.left-section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.left-section img{
+    width: 85%;
+}
+.right-section{
+    background-color: #E5E7EA;
+}
+.right-section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.right-section img {
+    width: 85%;
+}
+.middle-section{
+    background-color: beige;
+}
+.middle-section div{
+    margin: 0 auto;
+    text-align: center;
+}
+.middle-banner{
+    width: 100%;
+}
+.middle-img{
+    width: 30%;
+}
+.h2-name{
+    font-size: 5rem;
+    color: #009688;
+
+}
+.h3-name{
+    font-size: 2rem;
+    color: #009688;
+}
+.intro{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#arrow{
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.arrow-p{
+    padding-bottom: 40px;
+}
+.form{
+    padding-bottom: 40px;
+}
+/* animação */
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+.rotate{
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+#animation{
+    transition: 300ms;
+}
+.active{
+    display: block !important;
+}
+
+@media (max-width: 600px) {
+}
